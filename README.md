@@ -6,7 +6,7 @@
 - `nest generate controller computer` - generates a controller with name computer
   NOTE: If a module name already exists with same name as the service or controller, then the service or controller will be created inside the module.
 
-## Exporting Services
+## Exporting Services between different modules
 
 - By default the services of each module are private, until exported services can't be accessed by other module
 - Once services are added exports list, other module first needs to import the module, so it can call imported service inside its classes
